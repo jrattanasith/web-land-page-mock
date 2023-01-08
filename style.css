@@ -1,0 +1,73 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #ffff;
+    color: black;
+  }
+}
+#who-we-are {
+    text-align: center;
+    list-style: none;
+    background-color: #f3f3f3;
+}
+
+
+
+#about-us {
+    text-align: center;
+    list-style: none;
+    background-color: #00a1cf;
+}
+
+#careers {
+    text-align: center;
+    list-style: none;
+    background-color: #f3f3f3;
+}
+
+#donate {
+    text-align: center;
+    list-style: none;
+    background-color: #00a1cf;
+}
+
+#nav-bar ul li {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:nowrap;
+    height: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-height: 100px;
+    max-width: 200px;
+}
+
+#nav-bar{
+    display: block;
+    overflow: hidden;
+    
+}
+
+#nav-bar li {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#nav-bar li:hover{
+    background-color: lightblue;
+    color:black;
+    font-weight: bold;
+}
+
+#nav-bar li:active{
+    background-color: white;
+    color: black;
+}
